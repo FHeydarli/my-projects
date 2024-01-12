@@ -1,0 +1,25 @@
+*{
+    background-color: black;
+    
+}
+#baby{
+    border: 5px solid white;
+    width: 100%;
+    
+}
+h1{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+#fixing{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}

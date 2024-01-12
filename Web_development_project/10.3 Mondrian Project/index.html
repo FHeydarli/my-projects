@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container{
+      width: 748px;
+      height: 748px;
+      display: grid;
+      background: black;
+      grid-template-columns: 320px 198px 153px auto;
+      grid-template-rows: 414px 130px 155px auto;
+      gap: 9px;
+
+      
+    }
+    .red{
+      background-color: #E72F24;
+      
+    }
+    .grey_first{
+      background: #F0F1EC;
+      grid-column: 2 /3 span;
+    }
+    .grey_second{
+      grid-column: 1 / 2 ;
+      grid-row: 2 / 4;
+      background: #F0F1EC;
+
+    }
+    .grey_third{
+      grid-column: 2 / 4 ;
+      grid-row: 2 / 4;
+      background: #F0F1EC;
+
+    }
+    .grey_fourth{
+      background-color: #F0F1EC;
+      grid-row-start: 4;
+
+    }
+    .grey_fifth{
+      background-color: #F0F1EC;
+      grid-row-start: 3; 
+      grid-column-start: 4;
+      grid-row-end: 2 span;
+      border-top: 10px solid black;
+
+
+    }
+    .blue{
+      height: 130px;
+      width: 50px;
+      background-color: #004592;
+      grid-row-start: 2;
+    }
+    .yellow{
+      width: 198px;
+      grid-column: -4;
+      background-color: #F9D01E;
+
+    }
+    .black{
+      width: 153px;
+      grid-column-end:-2;
+      background-color: #232629;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="red"></div>
+    <div class="grey_first"></div>
+    <div class="grey_second"></div>
+    <div class="grey_third"></div>
+    <div class="grey_fourth"></div>
+    <div class="grey_fifth"></div>
+    <div class="blue"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>  
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
